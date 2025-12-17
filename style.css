@@ -1,4 +1,4 @@
-/* ================================================= */
+
 .full-banner img {
   width: 100%;
   display: block;
@@ -15,9 +15,7 @@
   color: #001f4d;
 }
 
-/* ================================================= */
-/* RAMA: HEADER */
-/* ================================================= */
+
 .top-bar {
   max-width: 900px;
   margin: auto;
@@ -47,9 +45,7 @@
   cursor: pointer;
 }
 
-/* ================================================= */
-/* RAMA: FORMULARIOS */
-/* ================================================= */
+
 .modal-bg {
   position: fixed;
   inset: 0;
@@ -98,4 +94,10 @@
   color: #00bfff;
   cursor: pointer;
   font-weight: bold;
+}
+
+  footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid #00bfff;
 }
