@@ -1,4 +1,14 @@
-body {
+/* ================================================= */
+.full-banner img {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}body {
   margin: 0;
   font-family: 'Bodoni MT', serif;
   background-color: #f5f7fa;
