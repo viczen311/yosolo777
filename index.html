@@ -6,6 +6,52 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+  <div class="top-bar">
+    <div class="logo">
+      <span class="load">Load</span><span class="lab">Lab</span>
+    </div>
+
+    <div class="menu">
+      <button class="menu-button" id="btnLogin">Login</button>
+      <button class="menu-button" id="btnLogout" style="display:none;">
+        Cerrar sesión
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================================================= -->
+<!-- RAMA: FORMULARIOS -->
+<!-- ================================================= -->
+
+<!-- LOGIN -->
+<div class="modal-bg" id="modalLogin">
+  <div class="modal">
+    <h2>Iniciar Sesión</h2>
+    <input type="text" id="loginUsuario" placeholder="Usuario">
+    <input type="password" id="loginPassword" placeholder="Contraseña">
+    <button class="btn-login" id="btnEntrar">Ingresar</button>
+
+    <p class="link-text">
+      ¿No tienes cuenta? <span id="abrirRegistro">Regístrate</span>
+    </p>
+
+    <button class="btn-close" id="cerrarLogin">Cerrar</button>
+  </div>
+</div>
+
+<!-- REGISTRO -->
+<div class="modal-bg" id="modalRegistro">
+  <div class="modal">
+    <h2>Registro de Usuario</h2>
+    <input type="text" id="regUsuario" placeholder="Usuario">
+    <input type="password" id="regPassword" placeholder="Contraseña">
+    <button class="btn-login" id="btnRegistrar">Registrarse</button>
+    <button class="btn-close" id="cerrarRegistro">Cancelar</button>
+  </div>
+</div>
+
     
 </body>
 </html>

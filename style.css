@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Bodoni MT', serif;
+  background-color: #f5f7fa;
+  color: #001f4d;
+}
+
+/* ================================================= */
+/* RAMA: HEADER */
+/* ================================================= */
+.top-bar {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.load {
+  color: #00bfff;
+}
+
+.lab {
+  color: #001f4d;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ================================================= */
+/* RAMA: FORMULARIOS */
+/* ================================================= */
+.modal-bg {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+}
+
+.modal input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background: #00bfff;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-close {
+  width: 100%;
+  padding: 10px;
+  background: #001f4d;
+  border: none;
+  color: white;
+  margin-top: 8px;
+}
+
+.link-text {
+  text-align: center;
+}
+
+.link-text span {
+  color: #00bfff;
+  cursor: pointer;
+  font-weight: bold;
+}
